@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: #abe3a2;
+}
+
+header img {
+  width: 75px;
+  height: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+nav {
+  padding: 2rem 5rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin: 0 5rem;
+  flex: 1;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: rgb(42, 85, 0);
+  font-weight: 700;
+}
+
+nav ul li a:hover {
+  color: #fff;
+  background-color: rgb(42, 85, 0);
+  padding: 0.2rem 0.3rem;
+  border-radius: 10px;
+}
+
+article {
+  margin-bottom: 2rem;
+}
+
+main article {
+  padding: 1rem 10rem;
+}
+
+main article p {
+  font-size: 1.35rem;
+}
+
+main article h1 {
+  text-align: center;
+  margin-bottom: 0.5rem;
+  font-size: 2rem;
+}
+
+div button {
+  display: flex;
+}
+
+main article .container {
+  background-image: url(images/bg.jpg) center center cover no-repeat;
+  border-radius: 10px;
+  padding: 1rem 2rem;
+}
+
+main article button {
+  background-color: rgb(42, 85, 0);
+  color: aliceblue;
+  border-radius: 5px;
+  padding: 0.75rem 1.5rem;
+  cursor: pointer;
+  border: none;
+  margin: 1rem auto;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+main article i {
+  margin-left: 5px;
+  margin-top: 4px;
+}
+
+main article button:hover {
+  background-color: #fff;
+  color: rgb(42, 85, 0);
+  border: 1px solid rgb(42, 85, 0);
+  font-weight: 600;
+}
+
+.cards {
+  display: flex;
+}
+
+.card {
+  width: 25rem;
+  margin: 0 3rem;
+  text-align: center;
+  border: 1px solid rgb(42, 85, 0);
+  border-radius: 10px;
+}
+
+.card h4 {
+  font-size: 1.35rem;
+}
+
+.card img {
+  max-width: 100%;
+  border-radius: 10px;
+  align-self: center;
+}
+
+footer {
+  display: flex;
+  margin: 2rem auto;
+}
+
+footer img {
+  width: 4rem;
+  margin: auto 5rem;
+}
+
+footer div {
+  width: 50%;
+  align-content: center;
+  justify-content: center;
+}
+footer div p {
+  margin-top: 6rem;
+}
+
+@media only screen and (max-width: 600px) {
+  nav {
+    padding: 0;
+    margin: 0.5rem 1rem;
+  }
+  nav ul li {
+    margin: 0;
+  }
+  main article {
+    padding: 0;
+  }
+  .cards {
+    display: block;
+  }
+  .card {
+    width: 75%;
+    margin-bottom: 1rem;
+  }
+}
